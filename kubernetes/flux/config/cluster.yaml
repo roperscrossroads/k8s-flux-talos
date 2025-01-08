@@ -8,6 +8,8 @@ metadata:
 spec:
   interval: 30m
   url: "https://github.com/roperscrossroads/k8s-flux-talos.git"
+  secretRef:
+    name: github-deploy-key
   ref:
     branch: "main"
   ignore: |
